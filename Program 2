@@ -1,0 +1,18 @@
+//to reverse an array element entered by user
+#include<iostream>
+using namespace std;
+int main()
+{   int n;
+    cout<<"enter element of array :";
+    cin>>n;
+    cout<<"enter elements of array : ";
+    int arr[n], i;
+    for(i=0; i<5; i++)
+        cin>>arr[i];
+    
+    cout<<"\nThe reverse of array  is:\n";
+    for(i=(5-1); i>=0; i--)
+        cout<<arr[i]<<" ";
+    cout<<endl;
+    return 0;
+}
