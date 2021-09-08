@@ -1,0 +1,16 @@
+//program for displaying the first and last element of array
+#include<iostream>
+using namespace std;
+int main(){
+    int n;	
+    cout<<"enter size of array : "<<endl;
+    cin>>n;
+    cout<<"enter elements of array : "<<endl;
+    int array[n];
+    for(int i=0;i<n;i++){
+        cin>>array[i];
+    }
+    cout<< array[0] << " is first element of array"<<endl;
+    cout<< array[n-1] <<" is last element of array"<<endl;
+    return 0;
+}
